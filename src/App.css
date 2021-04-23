@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+#userInput {
+  background: #111;
+  color: #fff;
+  width: 100%;
+  min-height: 200px;
+  padding: 0;
+  border: 0;
+}
+
+.canvasContainer {
+  height: 400px;
+}
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.btn:hover {
+  background: #222;
+  cursor: pointer;
+}
+
+.myName {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 600;
+}
